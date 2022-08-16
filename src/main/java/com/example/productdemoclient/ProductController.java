@@ -18,9 +18,6 @@ public class ProductController {
     @Autowired
     private ProductService service;
     
-    @Autowired
-    private Product productModel;
-    
     @RequestMapping(value="/product")
     public String getProduct(
             @RequestParam(name = "productId", required = false, defaultValue = "") String productId, 

@@ -15,7 +15,6 @@ import lombok.NoArgsConstructor;
 @EqualsAndHashCode
 @NoArgsConstructor
 @AllArgsConstructor
-@Component
 public class Product {
     private int id;
     private String description;
